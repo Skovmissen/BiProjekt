@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "BI PROJEKT 4.SEM", "BI PROJEKT 4.SEM\BI PROJEKT 4.SEM.dtproj", "{DD9ABE0F-5172-41AB-AFAD-DCF272289FB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD9ABE0F-5172-41AB-AFAD-DCF272289FB4}.Development|Default.ActiveCfg = Development
+		{DD9ABE0F-5172-41AB-AFAD-DCF272289FB4}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D552E78B-9D2D-437E-BB09-3BCD06CF4C0A}
+	EndGlobalSection
+EndGlobal
