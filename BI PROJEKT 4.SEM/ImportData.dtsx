@@ -11,8 +11,8 @@
   DTS:LocaleID="1030"
   DTS:ObjectName="ImportData"
   DTS:PackageType="5"
-  DTS:VersionBuild="81"
-  DTS:VersionGUID="{98AA8DF2-A730-444B-81C0-D0F031C41BF5}">
+  DTS:VersionBuild="84"
+  DTS:VersionGUID="{4E181E2E-D76B-47D2-B8EB-A1BCF9992C30}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -169,6 +169,12 @@
                       cachedName="CategoryType"
                       externalMetadataColumnId="Package\Import Products\DimProducts.Inputs[OLE DB Destination Input].ExternalColumns[CategoryType]"
                       lineageId="Package\Import Products\Script Component.Outputs[Output 0].Columns[CategoryType]" />
+                    <inputColumn
+                      refId="Package\Import Products\DimProducts.Inputs[OLE DB Destination Input].Columns[id]"
+                      cachedDataType="i4"
+                      cachedName="id"
+                      externalMetadataColumnId="Package\Import Products\DimProducts.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      lineageId="Package\Import Products\Products.Outputs[OLE DB Source Output].Columns[id]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -200,6 +206,10 @@
                       dataType="wstr"
                       length="50"
                       name="CategoryType" />
+                    <externalMetadataColumn
+                      refId="Package\Import Products\DimProducts.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -308,6 +318,15 @@
                       lineageId="Package\Import Products\Products.Outputs[OLE DB Source Output].Columns[active]"
                       name="active"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Import Products\Products.Outputs[OLE DB Source Output].Columns[id]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import Products\Products.Outputs[OLE DB Source Output].ExternalColumns[id]"
+                      lineageId="Package\Import Products\Products.Outputs[OLE DB Source Output].Columns[id]"
+                      name="id"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -360,6 +379,11 @@
                       lineageId="Package\Import Products\Products.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Import Products\Products.Outputs[OLE DB Source Error Output].Columns[id]"
+                      dataType="i4"
+                      lineageId="Package\Import Products\Products.Outputs[OLE DB Source Error Output].Columns[id]"
+                      name="id" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
