@@ -11,8 +11,8 @@
   DTS:LocaleID="1030"
   DTS:ObjectName="CreateTables"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{0E1848B6-628B-41A1-A7C4-FE82A49B30AE}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{C61B6883-0E70-412C-ABBA-D33B3910C7F0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
